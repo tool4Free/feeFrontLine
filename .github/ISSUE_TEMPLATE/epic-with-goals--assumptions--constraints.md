@@ -1,5 +1,5 @@
 ---
-name: 1-Epic with Goals Assumptions Constraints
+name: Epic with Goals, Assumptions, Constraints
 about: 목표, 가정, 제약사항을 담은 에픽
 
 ---
