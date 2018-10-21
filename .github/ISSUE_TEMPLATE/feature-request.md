@@ -1,6 +1,6 @@
 ---
 name: Feature request
-about: 이 프로젝트를 위한 아이디어 제안
+about: 이 프로젝트를 위한 아이디어나 기능 제안
 
 ---
 

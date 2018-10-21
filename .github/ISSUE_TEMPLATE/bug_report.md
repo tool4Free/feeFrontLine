@@ -1,6 +1,6 @@
 ---
 name: Bug report
-about: 우리 향상을 돕는 보고서 생성
+about: 우리 향상을 돕는 버그 보고서 생성
 
 ---
 
