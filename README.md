@@ -1,2 +1,2 @@
 # map4frontline
-References for service fee bottom line.
+Gether and Supply It freelancer service fee data for preventing '단가 후려치기'
