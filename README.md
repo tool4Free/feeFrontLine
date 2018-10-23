@@ -1,2 +1,5 @@
-# map4frontline
-Gether and Supply It freelancer service fee data for preventing '단가 후려치기'
+# IT프리 단가 전선
+
+프래랜서들이 서로 계약한 단가 정보의 평균을 보여줌으로써 업체와 단가 협상 시 참조할 수 있는 '단가 후려치기' 지지선을 제공합니다.
+
+- 사용자 스토리 작업 후 이 위치에 표시 -
