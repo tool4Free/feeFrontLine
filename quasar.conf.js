@@ -55,7 +55,12 @@ module.exports = function (ctx) {
         'QListHeader',
         'QItem',
         'QItemMain',
-        'QItemSide'
+        'QItemSide',
+        'QTable', // 테이블
+        'QTableColumns', // 테이블 열 선택
+        'QSearch', // 테이블 검색
+        'QSelect' // 수평||수직 선택
+
       ],
       directives: [
         'Ripple'
