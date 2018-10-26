@@ -10,7 +10,11 @@
     "lint": "eslint --ext .js,.vue src",
     "test": "echo \"No test specified\" && exit 0",
     "dev": "quasar dev",
-    "serve": "quasar serve dist/spa-mat"
+    "build": "quasar build",
+    "serve": "quasar serve dist/spa-mat",
+    "deploy": "gh-pages-deploy",
+    "clean-source": "rimraf README.md src webroot package.json",
+    "clean": "quasar clean"
   },
   "dependencies": {
     "axios": "^0.18.0",
@@ -27,6 +31,7 @@
     "eslint-plugin-promise": "^3.7.0",
     "eslint-plugin-standard": "^3.0.1",
     "eslint-plugin-vue": "^4.3.0",
+    "gh-pages-deploy": "^0.4.2",
     "quasar-cli": "^0.17.0",
     "strip-ansi": "=3.0.1"
   },
@@ -39,5 +44,16 @@
     "> 1%",
     "last 2 versions",
     "not ie <= 10"
-  ]
+  ],
+  "gh-pages-deploy": {
+    "staticpath": "dist/spa-mat",
+    "commit": "a custom commit message",
+    "prep": [
+      "build"
+    ],
+    "post": [
+      "clean"
+    ],
+    "noprompt": false
+  }
 }
