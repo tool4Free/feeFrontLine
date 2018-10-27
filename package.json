@@ -6,22 +6,27 @@
   "cordovaId": "",
   "author": "tool4free",
   "private": true,
+  "homepage": "https://tool4free.github.io/feeFrontLine",
   "scripts": {
     "lint": "eslint --ext .js,.vue src",
     "test": "echo \"No test specified\" && exit 0",
     "dev": "quasar dev",
     "build": "quasar build",
     "serve": "quasar serve dist/spa-mat",
-    "deploy": "gh-pages-deploy",
-    "clean-source": "rimraf README.md src webroot package.json",
+    "predeploy": "quasar build",
+    "deploy": "git push origin git subtree split --prefix dist gh-pages:gh-pages --force",
+    "update-gh-pages": "quasar build && git subtree push --prefix dist/spa-mat origin gh-pages:gh-pages --force",
     "clean": "quasar clean"
   },
   "dependencies": {
     "axios": "^0.18.0",
+    "gh-pages": "^2.0.1",
+    "move-cli": "^1.2.0",
     "vue-i18n": "^7.3.3"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.1",
+    "copy-dir-cli": "0.0.3",
     "eslint": "^4.18.2",
     "eslint-config-standard": "^11.0.0",
     "eslint-friendly-formatter": "^4.0.1",
