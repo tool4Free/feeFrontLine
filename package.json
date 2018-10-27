@@ -14,8 +14,7 @@
     "build": "quasar build",
     "serve": "quasar serve dist/spa-mat",
     "predeploy": "quasar build",
-    "deploy": "git push origin git subtree split --prefix dist gh-pages:gh-pages --force",
-    "update-gh-pages": "quasar build && git subtree push --prefix dist/spa-mat origin gh-pages:gh-pages --force",
+    "deploy": "",
     "clean": "quasar clean"
   },
   "dependencies": {
@@ -36,7 +35,6 @@
     "eslint-plugin-promise": "^3.7.0",
     "eslint-plugin-standard": "^3.0.1",
     "eslint-plugin-vue": "^4.3.0",
-    "gh-pages-deploy": "^0.4.2",
     "quasar-cli": "^0.17.0",
     "strip-ansi": "=3.0.1"
   },
@@ -49,16 +47,5 @@
     "> 1%",
     "last 2 versions",
     "not ie <= 10"
-  ],
-  "gh-pages-deploy": {
-    "staticpath": "dist/spa-mat",
-    "commit": "a custom commit message",
-    "prep": [
-      "build"
-    ],
-    "post": [
-      "clean"
-    ],
-    "noprompt": false
-  }
+  ]
 }

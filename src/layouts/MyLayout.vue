@@ -37,7 +37,7 @@
           <!--<q-item-side icon="school" />-->
           <!--<q-item-main label="Docs" sublabel="quasar-framework.org" />-->
         <!--</q-item>-->
-        <q-item @click.native="openURL('https://github.com/quasarframework/')">
+        <q-item @click.native="openURL('https://github.com/tool4free/')">
           <q-item-side icon="code" />
           <q-item-main label="툴포프리" sublabel="github.com/tool4free" />
         </q-item>
