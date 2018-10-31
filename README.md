@@ -21,7 +21,7 @@ IT프리 단가 전선(이하 아단전)은 일을 구할 때 수월하게 계�
 
 [설문하기 링크](https://goo.gl/forms/urFHEWj5D0DL8HPB3)
 
-![](http://imgdb.kr/eqUA.jpg)
+![](https://user-images.githubusercontent.com/44338466/47763692-17e10d00-dd05-11e8-9441-8f530d4eb56f.png)
 
 ### 경험 빌리기
 
